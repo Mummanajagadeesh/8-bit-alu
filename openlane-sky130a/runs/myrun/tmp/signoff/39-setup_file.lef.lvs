@@ -1,0 +1,1 @@
+lvs {/openlane/designs/alu-8bit/runs/myrun/results/signoff/alu8.spice alu8} {/openlane/designs/alu-8bit/runs/myrun/tmp/signoff/36-alu8.pnl.v alu8} /home/jagadeesh97/.ciel/sky130A/libs.tech/netgen/sky130A_setup.tcl /openlane/designs/alu-8bit/runs/myrun/logs/signoff/39-alu8.lef.lvs.log -json

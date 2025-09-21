@@ -1,0 +1,12 @@
+ABC: Warning: Detected 2 multi-output gates (for example, "sky130_fd_sc_hd__fa_1").
+Warning: Wire alu8.\Zero is used but has no driver.
+Warning: Wire alu8.\Result [7] is used but has no driver.
+Warning: Wire alu8.\Result [6] is used but has no driver.
+Warning: Wire alu8.\Result [5] is used but has no driver.
+Warning: Wire alu8.\Result [4] is used but has no driver.
+Warning: Wire alu8.\Result [3] is used but has no driver.
+Warning: Wire alu8.\Result [2] is used but has no driver.
+Warning: Wire alu8.\Result [1] is used but has no driver.
+Warning: Wire alu8.\Result [0] is used but has no driver.
+Warning: Wire alu8.\CarryOut is used but has no driver.
+Warnings: 10 unique messages, 10 total
