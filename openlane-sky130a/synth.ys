@@ -1,5 +1,5 @@
 # ===============================
-# Yosys Synthesis Script - alu8
+# Yosys Synthesis Script - alu
 # With straight-line schematic style
 # ===============================
 
@@ -13,69 +13,72 @@
 # -------------------------------
 read_verilog src/alu.v
 hierarchy -check
-synth -top alu8
+synth -top alu
 
 # -------------------------------
 # 2. Optimization and Checks
 # -------------------------------
 proc; opt; fsm; opt; memory; opt
-check > yosys-reports/alu8_check.txt
-stat > yosys-reports/alu8_stat.txt
+check > yosys-reports/alu_check.txt
+stat > yosys-reports/alu_stat.txt
 
 # -------------------------------
 # 3. Save Netlists
 # -------------------------------
-write_verilog yosys-reports/alu8_synth.v
-write_json yosys-reports/alu8_synth.json
-write_edif yosys-reports/alu8_synth.edf
-write_blif yosys-reports/alu8_synth.blif
-write_verilog yosys-reports/alu8_synth_clean.v
-write_json yosys-reports/alu8_synth_clean.json
+write_verilog yosys-reports/alu_synth.v
+write_json yosys-reports/alu_synth.json
+write_edif yosys-reports/alu_synth.edf
+write_blif yosys-reports/alu_synth.blif
+write_verilog yosys-reports/alu_synth_clean.v
+write_json yosys-reports/alu_synth_clean.json
 
 # -------------------------------
 # 4. RTL Diagram (straight lines)
 # -------------------------------
-show -format dot -stretch -prefix yosys-reports/alu8_rtl
+show -format dot -stretch -prefix yosys-reports/alu_rtl
 # Convert to PNG:
-# dot -Tpng yosys-reports/alu8_rtl.dot -o yosys-reports/alu8_rtl.png
+# dot -Tpng yosys-reports/alu_rtl.dot -o yosys-reports/alu_rtl.png
 
 # -------------------------------
 # 5. Hierarchy Diagram (straight lines)
 # -------------------------------
-hierarchy -top alu8
-show -format dot -stretch -prefix yosys-reports/alu8_hierarchy
+hierarchy -top alu
+show -format dot -stretch -prefix yosys-reports/alu_hierarchy
 # Convert to PNG:
-# dot -Tpng yosys-reports/alu8_hierarchy.dot -o yosys-reports/alu8_hierarchy.png
+# dot -Tpng yosys-reports/alu_hierarchy.dot -o yosys-reports/alu_hierarchy.png
 
 # -------------------------------
 # 6. Flat Netlist (straight lines)
 # -------------------------------
 flatten
-show -format dot -stretch -prefix yosys-reports/alu8_flat_netlist
+show -format dot -stretch -prefix yosys-reports/alu_flat_netlist
 # Convert to PNG:
-# dot -Tpng yosys-reports/alu8_flat_netlist.dot -o yosys-reports/alu8_flat_netlist.png
+# dot -Tpng yosys-reports/alu_flat_netlist.dot -o yosys-reports/alu_flat_netlist.png
 
 # -------------------------------
 # 7. Technology Mapping
 # -------------------------------
 techmap; opt
-stat -tech xilinx > yosys-reports/alu8_techmap_stat.txt
+stat -tech xilinx > yosys-reports/alu_techmap_stat.txt
 
-write_verilog yosys-reports/alu8_mapped.v
-write_json yosys-reports/alu8_mapped.json
+write_verilog yosys-reports/alu_mapped.v
+write_json yosys-reports/alu_mapped.json
 
 # -------------------------------
 # 8. Module Graph (straight lines)
 # -------------------------------
-show -format dot -stretch -prefix yosys-reports/module_alu8
+show -format dot -stretch -prefix yosys-reports/module_alu
 # Convert to PNG:
-# dot -Tpng yosys-reports/module_alu8.dot -o yosys-reports/module_alu8.png
+# dot -Tpng yosys-reports/module_alu.dot -o yosys-reports/module_alu.png
 
 # -------------------------------
-# 9. ABC / Timing Analysis
+# 9. ABC / Rough Timing Analysis (Gate-level Mapping)
 # -------------------------------
-# abc -liberty /usr/share/yosys/techlibs/sky130_fd_sc_hd/sky130_fd_sc_hd__tt_025C_1v80.lib
-# stat > yosys-reports/alu8_abc_stat.txt
+# Map to Sky130 standard cells (typical corner)
+abc -liberty /home/jagadeesh97/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.ref/sky130_fd_sc_hd/lib/sky130_fd_sc_hd__tt_025C_1v80.lib
+clean
+stat > yosys-reports/inverter_abc_stat.txt
+
 
 # -------------------------------
 # 10. Done
