@@ -16,47 +16,47 @@ Fanout     Cap    Slew   Delay    Time   Description
                           2.00    2.00 v input external delay
                   0.01    0.00    2.00 v A[1] (in)
      1    0.00                           A[1] (net)
-                  0.01    0.00    2.00 v input2/A (sky130_fd_sc_hd__buf_2)
-                  0.07    0.16    2.16 v input2/X (sky130_fd_sc_hd__buf_2)
-     1    0.03                           net2 (net)
-                  0.07    0.00    2.16 v _176_/A (sky130_fd_sc_hd__clkbuf_4)
-                  0.09    0.21    2.38 v _176_/X (sky130_fd_sc_hd__clkbuf_4)
+                  0.01    0.00    2.00 v input2/A (sky130_fd_sc_hd__buf_1)
+                  0.07    0.11    2.12 v input2/X (sky130_fd_sc_hd__buf_1)
+     1    0.01                           net2 (net)
+                  0.07    0.00    2.12 v _176_/A (sky130_fd_sc_hd__clkbuf_4)
+                  0.09    0.21    2.33 v _176_/X (sky130_fd_sc_hd__clkbuf_4)
     10    0.04                           _109_ (net)
-                  0.09    0.00    2.38 v _177_/A (sky130_fd_sc_hd__xnor2_4)
-                  0.22    0.26    2.64 ^ _177_/Y (sky130_fd_sc_hd__xnor2_4)
+                  0.09    0.00    2.33 v _177_/A (sky130_fd_sc_hd__xnor2_4)
+                  0.21    0.26    2.58 ^ _177_/Y (sky130_fd_sc_hd__xnor2_4)
      8    0.02                           _110_ (net)
-                  0.22    0.00    2.64 ^ _228_/A1 (sky130_fd_sc_hd__o21ai_1)
-                  0.09    0.14    2.78 v _228_/Y (sky130_fd_sc_hd__o21ai_1)
+                  0.21    0.00    2.58 ^ _228_/A1 (sky130_fd_sc_hd__o21ai_1)
+                  0.09    0.14    2.73 v _228_/Y (sky130_fd_sc_hd__o21ai_1)
      3    0.01                           _160_ (net)
-                  0.09    0.00    2.78 v _266_/B2 (sky130_fd_sc_hd__a221o_1)
-                  0.07    0.37    3.15 v _266_/X (sky130_fd_sc_hd__a221o_1)
+                  0.09    0.00    2.73 v _266_/B2 (sky130_fd_sc_hd__a221o_1)
+                  0.07    0.37    3.10 v _266_/X (sky130_fd_sc_hd__a221o_1)
      2    0.01                           _020_ (net)
-                  0.07    0.00    3.15 v _267_/B (sky130_fd_sc_hd__nand2_1)
-                  0.06    0.09    3.24 ^ _267_/Y (sky130_fd_sc_hd__nand2_1)
+                  0.07    0.00    3.10 v _267_/B (sky130_fd_sc_hd__nand2_1)
+                  0.07    0.09    3.19 ^ _267_/Y (sky130_fd_sc_hd__nand2_1)
      1    0.01                           _021_ (net)
-                  0.06    0.00    3.24 ^ _268_/B (sky130_fd_sc_hd__xnor2_1)
-                  0.12    0.12    3.35 ^ _268_/Y (sky130_fd_sc_hd__xnor2_1)
+                  0.07    0.00    3.19 ^ _268_/B (sky130_fd_sc_hd__xnor2_1)
+                  0.12    0.12    3.31 ^ _268_/Y (sky130_fd_sc_hd__xnor2_1)
      1    0.00                           _022_ (net)
-                  0.12    0.00    3.35 ^ _271_/A2 (sky130_fd_sc_hd__o21ai_1)
-                  0.05    0.07    3.42 v _271_/Y (sky130_fd_sc_hd__o21ai_1)
+                  0.12    0.00    3.31 ^ _271_/A2 (sky130_fd_sc_hd__o21ai_1)
+                  0.05    0.07    3.38 v _271_/Y (sky130_fd_sc_hd__o21ai_1)
      1    0.00                           _025_ (net)
-                  0.05    0.00    3.42 v _278_/B (sky130_fd_sc_hd__or3b_1)
-                  0.06    0.35    3.77 v _278_/X (sky130_fd_sc_hd__or3b_1)
+                  0.05    0.00    3.38 v _278_/B (sky130_fd_sc_hd__or3b_1)
+                  0.06    0.36    3.73 v _278_/X (sky130_fd_sc_hd__or3b_1)
      1    0.00                           _032_ (net)
-                  0.06    0.00    3.77 v _279_/A (sky130_fd_sc_hd__buf_2)
-                  0.07    0.18    3.95 v _279_/X (sky130_fd_sc_hd__buf_2)
-     2    0.03                           net26 (net)
-                  0.07    0.00    3.95 v _357_/B (sky130_fd_sc_hd__or4_1)
-                  0.12    0.58    4.53 v _357_/X (sky130_fd_sc_hd__or4_1)
-     1    0.01                           _105_ (net)
-                  0.12    0.00    4.53 v _361_/A3 (sky130_fd_sc_hd__o31ai_4)
-                  0.29    0.31    4.84 ^ _361_/Y (sky130_fd_sc_hd__o31ai_4)
-     1    0.02                           net30 (net)
-                  0.29    0.00    4.84 ^ output30/A (sky130_fd_sc_hd__buf_2)
-                  0.17    0.28    5.12 ^ output30/X (sky130_fd_sc_hd__buf_2)
+                  0.06    0.00    3.73 v _279_/A (sky130_fd_sc_hd__buf_1)
+                  0.09    0.16    3.89 v _279_/X (sky130_fd_sc_hd__buf_1)
+     2    0.01                           net26 (net)
+                  0.09    0.00    3.89 v _357_/B (sky130_fd_sc_hd__or4_1)
+                  0.08    0.53    4.42 v _357_/X (sky130_fd_sc_hd__or4_1)
+     1    0.00                           _105_ (net)
+                  0.08    0.00    4.42 v _361_/A3 (sky130_fd_sc_hd__o31ai_1)
+                  0.26    0.27    4.69 ^ _361_/Y (sky130_fd_sc_hd__o31ai_1)
+     1    0.01                           net30 (net)
+                  0.26    0.00    4.69 ^ output30/A (sky130_fd_sc_hd__buf_2)
+                  0.17    0.28    4.97 ^ output30/X (sky130_fd_sc_hd__buf_2)
      1    0.03                           Zero (net)
-                  0.17    0.00    5.12 ^ Zero (out)
-                                  5.12   data arrival time
+                  0.17    0.00    4.97 ^ Zero (out)
+                                  4.97   data arrival time
 
                   0.00   10.00   10.00   clock clk (rise edge)
                           0.00   10.00   clock network delay (ideal)
@@ -66,9 +66,9 @@ Fanout     Cap    Slew   Delay    Time   Description
                                   7.75   data required time
 -----------------------------------------------------------------------------
                                   7.75   data required time
-                                 -5.12   data arrival time
+                                 -4.97   data arrival time
 -----------------------------------------------------------------------------
-                                  2.63   slack (MET)
+                                  2.78   slack (MET)
 
 
 
@@ -91,7 +91,7 @@ No paths found.
 ===========================================================================
 report_parasitic_annotation -report_unannotated
 ============================================================================
-Found 237 unannotated drivers.
+Found 238 unannotated drivers.
  A[0]
  A[1]
  A[2]
@@ -319,6 +319,7 @@ Found 237 unannotated drivers.
  input8/X
  input9/X
  max_cap31/X
+ max_cap32/X
  output21/X
  output22/X
  output23/X

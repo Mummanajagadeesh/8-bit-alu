@@ -1,6 +1,6 @@
-# --- alu8/config.tcl ---
+# --- alu/config.tcl ---
 
-set ::env(DESIGN_NAME) "alu8"
+set ::env(DESIGN_NAME) "alu"
 set ::env(VERILOG_FILES) "$::env(DESIGN_DIR)/src/alu.v"
 
 # Clock settings (required for STA, though ALU is combinational)
@@ -9,7 +9,7 @@ set ::env(CLOCK_PERIOD) 10.0
 
 # Use absolute sizing (Option A)
 set ::env(FP_SIZING) "absolute"
-set ::env(DIE_AREA) "0 0 500 500"
+set ::env(DIE_AREA) "0 0 200 200"
 
 # PDN settings
 set ::env(FP_PDN_CORE_RING) 0

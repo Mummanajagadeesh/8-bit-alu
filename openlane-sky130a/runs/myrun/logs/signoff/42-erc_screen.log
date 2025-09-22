@@ -1,17 +1,17 @@
 CVC: Circuit Validation Check  Version 1.1.4
-CVC: Log output to /openlane/designs/alu-8bit/runs/myrun/reports/signoff/alu8.rpt
-CVC: Error output to /openlane/designs/alu-8bit/runs/myrun/reports/signoff/alu8.rpt.error.gz
-CVC: Debug output to /openlane/designs/alu-8bit/runs/myrun/reports/signoff/alu8.rpt.debug.gz
-CVC: Start: Sat Sep 20 17:13:17 2025
+CVC: Log output to /openlane/designs/alu/runs/myrun/reports/signoff/alu.rpt
+CVC: Error output to /openlane/designs/alu/runs/myrun/reports/signoff/alu.rpt.error.gz
+CVC: Debug output to /openlane/designs/alu/runs/myrun/reports/signoff/alu.rpt.debug.gz
+CVC: Start: Mon Sep 22 15:16:44 2025
 
-Using the following parameters for CVC (Circuit Validation Check) from /home/jagadeesh97/.ciel/sky130A/libs.tech/openlane/cvc/cvcrc
-CVC_TOP = 'alu8'
-CVC_NETLIST = '/openlane/designs/alu-8bit/runs/myrun/tmp/signoff/alu8.cdl'
-CVC_MODE = 'alu8'
-CVC_MODEL_FILE = '/home/jagadeesh97/.ciel/sky130A/libs.tech/openlane/cvc/models'
-CVC_POWER_FILE = '/openlane/designs/alu-8bit/runs/myrun/tmp/signoff/alu8.power'
+Using the following parameters for CVC (Circuit Validation Check) from /home/jagadeesh97/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/cvc/cvcrc
+CVC_TOP = 'alu'
+CVC_NETLIST = '/openlane/designs/alu/runs/myrun/tmp/signoff/alu.cdl'
+CVC_MODE = 'alu'
+CVC_MODEL_FILE = '/home/jagadeesh97/.ciel/ciel/sky130/versions/0fe599b2afb6708d281543108caf8310912f54af/sky130A/libs.tech/openlane/cvc/models'
+CVC_POWER_FILE = '/openlane/designs/alu/runs/myrun/tmp/signoff/alu.power'
 CVC_FUSE_FILE = ''
-CVC_REPORT_FILE = '/openlane/designs/alu-8bit/runs/myrun/reports/signoff/alu8.rpt'
+CVC_REPORT_FILE = '/openlane/designs/alu/runs/myrun/reports/signoff/alu.rpt'
 CVC_REPORT_TITLE = 'CVC $CVC_TOP'
 CVC_CIRCUIT_ERROR_LIMIT = '100'
 CVC_SEARCH_LIMIT = '100'
@@ -45,10 +45,10 @@ End of parameters
 
 CVC: Reading device model settings...
 CVC: Reading power settings...
-CVC: Parsing netlist /openlane/designs/alu-8bit/runs/myrun/tmp/signoff/alu8.cdl
+CVC: Parsing netlist /openlane/designs/alu/runs/myrun/tmp/signoff/alu.cdl
 
-Cdl fixed data size 397832
-Usage CDL: Time: 0  Memory: 18028  I/O: 4304  Swap: 0
+Cdl fixed data size 70633
+Usage CDL: Time: 0  Memory: 8400  I/O: 416  Swap: 0
 CVC: Counting and linking...
-Fatal error:could not find subcircuit: XFILLER_0_27_93(sky130_ef_sc_hd__decap_12) in alu8
+Fatal error:could not find subcircuit: XFILLER_0_27_93(sky130_ef_sc_hd__decap_12) in alu
 

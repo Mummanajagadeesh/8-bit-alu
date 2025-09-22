@@ -1,14 +1,14 @@
 
 60. Executing CHECK pass (checking for obvious problems).
-Checking module alu8...
-Warning: Wire alu8.\Zero is used but has no driver.
-Warning: Wire alu8.\Result [7] is used but has no driver.
-Warning: Wire alu8.\Result [6] is used but has no driver.
-Warning: Wire alu8.\Result [5] is used but has no driver.
-Warning: Wire alu8.\Result [4] is used but has no driver.
-Warning: Wire alu8.\Result [3] is used but has no driver.
-Warning: Wire alu8.\Result [2] is used but has no driver.
-Warning: Wire alu8.\Result [1] is used but has no driver.
-Warning: Wire alu8.\Result [0] is used but has no driver.
-Warning: Wire alu8.\CarryOut is used but has no driver.
+Checking module alu...
+Warning: Wire alu.\Zero is used but has no driver.
+Warning: Wire alu.\Result [7] is used but has no driver.
+Warning: Wire alu.\Result [6] is used but has no driver.
+Warning: Wire alu.\Result [5] is used but has no driver.
+Warning: Wire alu.\Result [4] is used but has no driver.
+Warning: Wire alu.\Result [3] is used but has no driver.
+Warning: Wire alu.\Result [2] is used but has no driver.
+Warning: Wire alu.\Result [1] is used but has no driver.
+Warning: Wire alu.\Result [0] is used but has no driver.
+Warning: Wire alu.\CarryOut is used but has no driver.
 Found and reported 10 problems.

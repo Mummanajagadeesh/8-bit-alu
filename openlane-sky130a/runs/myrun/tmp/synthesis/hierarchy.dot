@@ -1,5 +1,5 @@
-digraph "alu8" {
-label="alu8";
+digraph "alu" {
+label="alu";
 rankdir="LR";
 remincross=true;
 n21 [ shape=octagon, label="Zero", color="black", fontcolor="black" ];
@@ -25,7 +25,7 @@ c37 [ shape=record, label="{{<p26> A|<p25> B}|$4\n$and|{<p27> Y}}",  ];
 c38 [ shape=record, label="{{<p26> A|<p25> B}|$3\n$sub|{<p27> Y}}",  ];
 c39 [ shape=record, label="{{<p26> A|<p25> B}|$2\n$add|{<p27> Y}}",  ];
 x5 [ shape=record, style=rounded, label="<s1> 8:8 - 0:0 |<s0> 7:0 - 7:0 ", color="black", fontcolor="black" ];
-p4 [shape=box, style=rounded, label="PROC $1\n/openlane/designs/alu-8bit/src/alu.v:14.5-39.8"];
+p4 [shape=box, style=rounded, label="PROC $1\n/openlane/designs/alu/src/alu.v:14.5-39.8"];
 c35:p27:e -> p4:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
 c36:p27:e -> p4:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];
 c37:p27:e -> p4:w [color="black", fontcolor="black", style="setlinewidth(3)", label=""];

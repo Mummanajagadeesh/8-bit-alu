@@ -1,7 +1,7 @@
 
 61. Printing statistics.
 
-=== alu8 ===
+=== alu ===
 
    Number of wires:                182
    Number of wire bits:            206
@@ -55,5 +55,5 @@
      sky130_fd_sc_hd__xnor2_2        5
      sky130_fd_sc_hd__xor2_2         4
 
-   Chip area for module '\alu8': 1562.748800
+   Chip area for module '\alu': 1562.748800
 

@@ -2,7 +2,7 @@
 // 8-bit combinational ALU for FPGA synthesis
 // Supports: ADD, SUB, AND, OR, XOR, NOT, INC, DEC, COMPARE (A==B)
 
-module alu8 (
+module alu (
     input  [7:0] A,
     input  [7:0] B,
     input  [3:0] Sel,       // operation select
